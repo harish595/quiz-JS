@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.queSec h1 {
+  text-align: center;
+  position: relative;
+  top: 12%;
+}
+.queSec {
+  width: 100%;
+  border: 2px solid;
+  height: 100vh;
+  margin: 0px auto;
+  background-color: rgb(189, 127, 127);
+}
+.queSec article {
+  width: 60%;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0px auto;
+  margin-top: 120px;
+  background-color: antiquewhite;
+  border-radius: 25px;
+}
+.queSec article div {
+  margin-left: 50px;
+  margin-top: 150px;
+  height: 30vh;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[name="question1"] {
+  accent-color: green;
+}
+
+input[name="question2"] {
+  accent-color: green;
+}
+input[name="question3"] {
+  accent-color: green;
+}
+input[name="question4"] {
+  accent-color: green;
+}
+input[name="question5"] {
+  accent-color: green;
+}
+div {
+  position: absolute;
+  top: 90px;
+}
+
+button {
+  position: absolute;
+  top: 400px;
+  left: 580px;
+  border: none;
+  padding: 15px;
+  background-color: rgb(0, 8, 255);
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: #fff;
+}
+button:hover {
+  background-color: gray;
+}
+
+#result {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+
+#resDiv {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  font: bold;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 35px;
+  text-shadow: 0px -4px 20px yellowgreen, 0px 4px 20px red,
+    0px 8px 20px blueviolet;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 750px;
+  bottom: 200px;
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+}

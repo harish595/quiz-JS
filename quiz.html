@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./quiz.css" />
+  </head>
+  <body>
+    <section class="queSec">
+      <h1>React Quiz</h1>
+      <article>
+        <!-- question-1 -->
+        <div id="div1">
+          Q1. How do you write an inline style which specifies the font-size:12px and color:red; in JSX?<br /><br>
+          <input type="radio" name="question1" />style={{font-size:12,color:'red'}}<br />
+          <input type="radio" name="question1" id="correct1"/>style={{fontSize:'12px',color:'red'}}
+          <br />
+          <input type="radio" name="question1" />style={fontSize:'12px',color:'red'}
+          <br />
+          <input type="radio" name="question1" />style={{font-size:12px,color:'red'}}<br />
+                    </div>
+
+        <!-- question-2 -->
+
+        <div id="div2">
+          Q2. What is ReactJS?<br /><br>
+          <input type="radio" name="question2" />Server side Framework<br />
+          <input type="radio" name="question2" />User-interface framework <br />
+          <input type="radio" name="question2" id="correct2" />Library for building interaction interfaces<br />
+          <input type="radio" name="question2" />None of the Above<br />
+        </div>
+
+        <!-- question-3 -->
+
+        <div id="div3">
+          Q3. What is the default port number in which the application run ?<br /><br>
+          <input type="radio" name="question3" id="correct3" />3000<br />
+          <input type="radio" name="question3" />8080<br />
+          <input type="radio" name="question3" />5000<br />
+          <input type="radio" name="question3" />3030<br />
+        </div>
+
+        <!-- question-4 -->
+        <div id="div4">
+          Q4. What are the two ways that data gets handled in React?<br /><br>
+          <input type="radio" name="question3" id="correct4" />state & props?<br />
+          <input type="radio" name="question3" />services & components<br />
+          <input type="radio" name="question3"  />States & Services<br />
+          <input type="radio" name="question3" />State & Component<br />
+        </div>
+
+        <!-- question-5 -->
+        <div id="div5">
+          Q5. Choose the right answer about JSX.<br /><br>
+          <input type="radio" name="question3"  />JSX is faster as it performs optimization while compiling code to JavaScript<br />
+          <input type="radio" name="question3" />JSX is a syntax notation for JavaScript XML<br />
+          <input type="radio" name="question3" />JSX provides expressiveness of JavaScript along with HTML, like template syntax<br />
+          <input type="radio" name="question3" id="correct5" />All of the above options<br />
+        </div>
+        <!-- Question-6 -->
+          <div id="div6">
+          Q6. Which of the following is true regarding Babel ?.<br /><br>
+          <input type="radio" name="question3" id="correct6" />Compiler<br />
+          <input type="radio" name="question3" />Transpiler<br />
+          <input type="radio" name="question3" />Both a & b<br />
+          <input type="radio" name="question3" />None of the above options<br />
+        </div>
+          <!-- question-7 -->
+        <div id="div7">
+          Q7. In React.js, how we can pass the data from one component to another in React.js ?<br /><br>
+          <input type="radio" name="question3" />setState<br />
+          <input type="radio" name="question3" />render and arguments<br />
+          <input type="radio" name="question3" id="correct7" />Props<br />
+          <input type="radio" name="question3"  />propsTypes<br />
+        </div>
+
+           <!-- question-8 -->
+        <div id="div8">
+          Q8. Which of the following function is true about changing the state in React.js ?<br /><br>
+          <input type="radio" name="question3" />this.setState<br />
+          <input type="radio" name="question3" />this.State{}<br />
+          <input type="radio" name="question3" id="correct8" />this.setChangeState<br />
+          <input type="radio" name="question3"  />All of the above<br />
+        </div>
+      </article>
+    </section>
+    <button onclick="m1()" id="btn1">Submit </button>
+        <button onclick="m2()" id="btn2">Submit</button>
+        <button id="btn3" onclick="m3()">Submit </button>
+        <button id="btn4" onclick="m4()">Submit </button>
+        <button id="btn5" onclick="m5()">Submit </button>
+         <button id="btn6" onclick="m6()">Submit </button>
+        <button id="btn7" onclick="m7()">Submit </button>
+        <button id="btn8" onclick="m8()">Submit </button>
+        <button onclick="res()" id="result">Check Result</button>
+
+
+        <div id="resDiv">
+
+           <Span>duration:</Span> <span id="counting">0</span>
+        </div>
+    <!-- <script src="./index.js"></script> -->
+    <script src="./quiz.js"></script>
+  </body>
+</html>
